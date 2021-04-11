@@ -1,0 +1,8 @@
+.container{
+    background-image: url('../Images/tech.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}

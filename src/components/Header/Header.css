@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(32, 39, 48);
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    top:0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.header__right{
+    display: flex;
+    margin-top: 12px;
+
+   
+  
+    align-items: center;
+    
+    align-items: center;
+    justify-content: space-evenly;   
+    
+
+}
+
+
+.header__right > a >h5 {
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 40px;
+    transition: transform 200ms ease-in-out;
+    font-family: "Crimson",sans-serif;
+    letter-spacing: 1px;
+}
+
+.header__right > a >h5:hover {
+    transform:scale(1.2);
+    background-color: orangered;
+    color: white;
+    padding:0px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
